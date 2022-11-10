@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>former</title>
+</head>
+<h1>
+    html form 
+</h1>
+<body>
+   <form action="">
+    <table>
+        <tr>
+            <td>
+                <label for="fname">First Name:</label>
+            </td>
+            <td>
+                <input type="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lname">Last Name:</label>
+            </td>
+            <td>
+                <input type="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <input type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+               <input type="password" name="text" id="passeord" required pattern="(?=.*d) (?=.*[a-z])(?.[A-Z]).(8,)" title="please enter a valid password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="number">Phone Number:</label>
+            </td>
+            <td>
+               <input type="tel" name="phone" id="phone" placeholder="123-456-789" 
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pnumber">Number:</label>
+            </td>
+            <td>
+                <input type="number" name="pnumber" id="pnumber" max="2025" min="2020">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="DOB">Date Of Birth:</label>
+            </td>
+            <td>
+                <input type="date" name="DOB" id="DOB" max="2022-11-01" min="1998-11-01" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cars">Choose a car</label>
+            </td>
+            <td>
+                <select name="cars" id="cars"></select>
+                <option value="benz">Benz</option>
+                <option value="lexus">Lexus</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="vehicle1" id="vehicle1">
+            </td>
+            <td>
+                <label for="vehicle1">I have a bike</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="vehicle2" id="vechicle2">
+            </td>
+            <td>
+                <label for="vehicle">I have a car</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="document">Upload a document</label>
+            </td>
+            <td>
+                <input type="file" name="date" id="time">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit">
+            </td>
+        </tr>
+    </table>
+   </form> 
+</body>
+</html>
